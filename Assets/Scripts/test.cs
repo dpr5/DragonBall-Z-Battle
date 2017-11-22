@@ -7,8 +7,9 @@ using UnityEngine.UI;
 
 public class test : MonoBehaviour {
 
-    public Button rockButton;
-    int a;
+
+    private float timeRemaining = 5f;
+    public Text text;
 
     void Start () 
 	{
@@ -18,21 +19,11 @@ public class test : MonoBehaviour {
 	
 	void Update () 
 	{
-
-    }
-
-    void comp()
-    {
-       
-    }
-
-    public void buttonTest(Button button)
-    {   
         
-        Debug.Log("pressed " + button.name + " " + a);
-
-       
     }
+
+    
+
 
 
 }
